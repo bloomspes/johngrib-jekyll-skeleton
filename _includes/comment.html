@@ -12,11 +12,18 @@
         </script>
     {% endif %}
     {% if site.comment-support == "utterances" %}
-        <script src="https://utteranc.es/client.js"
+        <!-- <script src="https://utteranc.es/client.js"
             repo="{{ site.utterances.repo }}"
             {% if page.issue-number %}issue-number="{{ page.issue-number }}"{% else %}issue-term="{{ site.utterances.issue-term }}"{% endif %}
             label="{{ site.utterances.label }}"
             branch="{{ site.utterances.branch }}"
+        async>
+        </script> -->
+        <script src="https://utteranc.es/client.js"
+        repo="bloomspes/bloomspes.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
         async>
         </script>
     {% endif %}
