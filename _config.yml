@@ -44,7 +44,7 @@ utterances:
   repo: bloomspes/bloomspes.github.io
   issue-term: url
   label: Comment
-  branch: master
+  branch: main
  
 blame: "https://github.com/bloomspes/bloomspes.github.io/blame/master/_wiki"
 edit: "https://github.com/bloomspes/bloomspes.github.io/edit/master/_wiki"
