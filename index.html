@@ -23,17 +23,26 @@ regenerate: true
         <a href="/tag/">태그</a>
     </div>
     <div class="contact">
-{% if site.github_username %}
+        {% if site.github_username %}
         <a href="https://github.com/{{ site.github_username }}">GitHub</a>
-{% endif %}
-{% if site.twitter_username %}
+        {% endif %}
+        {% if site.twitter_username %}
         <a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a>
-{% endif %}
-{% if site.email %}
+        {% endif %}
+        {% if site.email %}
         <a href="mailto:{{ site.email }}">Email</a>
-{% endif %}
+        {% endif %}
+        <!--
         <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
+        -->
     </div>
+    <p>
+        <div class="bd-callout bd-callout-info">
+            이 위키는 John Grib님의
+            <a href="https://johngrib.github.io/" target="_blank">Vimwiki</a>
+            <a href="https://github.com/johngrib/johngrib-jekyll-skeleton" target="_blank"> skeleton</a>을 fork 하여 제작되었습니다.(단축키도움말Ctrl+h)
+        </div>
+    </p>
 </div>
 <div>
     <H3 class="indent">최근 변경된 문서</H3>
